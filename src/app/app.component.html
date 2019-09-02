@@ -1,0 +1,12 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<div style="padding:20px; display : inline-block;margin:20px;">
+  <a style="padding:20px; " (click)="testService.onCheck()" routerLink="page1"
+    >Page 1</a
+  >
+  <a routerLink="page2" (click)="testService.onCheck()">Page 2</a>
+</div>
+<hr />
+<router-outlet></router-outlet>

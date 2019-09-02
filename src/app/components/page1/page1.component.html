@@ -1,0 +1,6 @@
+<label>
+  Name:
+  <input type="text" [formControl]="name" (keyup)="testService.onTouch()" />
+</label>
+<br />
+<button (click)="testService.onSave()">Save</button>
